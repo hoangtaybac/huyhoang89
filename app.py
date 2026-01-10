@@ -873,9 +873,6 @@ with st.sidebar:
     st.subheader("Thông tin liên hệ")
     st.markdown("### ThS. Hà Huy Hoàng")  
     st.markdown("#### Liên hệ: 097.125.8386")
-    </div>
-    """, unsafe_allow_html=True)
-
 # Main container for the application
 main_container = st.container()
 
