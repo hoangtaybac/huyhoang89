@@ -859,7 +859,7 @@ st.markdown("<p> PHẦN MỀM CHUYỂN PDF SANG WORD </p>", unsafe_allow_html=Tr
 
 # Sidebar với phần cài đặt và thông tin
 with st.sidebar:
-    st.header("HƯỚNG DẪN SỬ DỤNG CÔNG CỤ")
+    st.header("HƯỚNG DẪN SỬ DỤNG")
     st.info("""
     1. Upload file PDF
     2. Nhấn nút xử lý OCR
