@@ -860,7 +860,6 @@ st.markdown("<p> PHẦN MỀM CHUYỂN PDF SANG WORD </p>", unsafe_allow_html=Tr
 # Sidebar với phần cài đặt và thông tin
 with st.sidebar:
     st.header("Thông tin ứng dụng")
-    st.subheader("Giới thiệu")
     st.info("""
     Cách sử dụng:
     1. Upload file PDF
