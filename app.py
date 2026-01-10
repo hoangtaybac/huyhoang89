@@ -854,16 +854,14 @@ def generate_word_document(text, images):
 # ----- Ứng dụng Streamlit chính -----
 
 # Tạo tiêu đề và giới thiệu
-st.title("PHẦN MỀM CHUYỂN PDF SANG WORD OCR")
-st.markdown("<p>Chuyển đổi PDF thành văn bản có thể chỉnh sửa với AI</p>", unsafe_allow_html=True)
+st.title("HỆ THỐNG GIÁO DỤC HOÀNG TÂY BẮC")
+st.markdown("<p> PHẦN MỀM CHUYỂN PDF SANG WORD </p>", unsafe_allow_html=True)
 
 # Sidebar với phần cài đặt và thông tin
 with st.sidebar:
     st.header("Thông tin ứng dụng")
     st.subheader("Giới thiệu")
     st.info("""
-    Ứng dụng này sử dụng trí tuệ nhân tạo của Mistral để nhận dạng văn bản trong file PDF. 
-    
     Cách sử dụng:
     1. Upload file PDF
     2. Nhấn nút xử lý OCR
