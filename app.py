@@ -854,7 +854,7 @@ def generate_word_document(text, images):
 # ----- Ứng dụng Streamlit chính -----
 
 # Tạo tiêu đề và giới thiệu
-st.title("P_OCR PDF với Server AI 2025")
+st.title("PHẦN MỀM CHUYỂN PDF SANG WORD OCR")
 st.markdown("<p>Chuyển đổi PDF thành văn bản có thể chỉnh sửa với AI</p>", unsafe_allow_html=True)
 
 # Sidebar với phần cài đặt và thông tin
@@ -871,7 +871,7 @@ with st.sidebar:
     3. Xem và tải kết quả
     """)
     
-    st.subheader("Thông tin tác giả")
+    st.subheader("Thông tin liên hệ")
     
     col1, col2 = st.columns([1, 3])
     
@@ -886,14 +886,11 @@ with st.sidebar:
         )
         
     with col2:
-        st.markdown("### Nguyễn Hữu Phúc")
-        st.markdown("Nhà phát triển ứng dụng  \nP_OCR_2025")
+        st.markdown("### ThS. Hà Huy Hoàng")
+        
     
-    st.markdown("#### Liên hệ")
-    st.markdown("📱 Zalo: [0985.692.879](https://zalo.me/0985692879)")
-    st.markdown("📘 Facebook: [facebook.com/nhphuclk](https://facebook.com/nhphuclk)")
-    st.markdown("🌐 Website: [aiomtpremium.com](https://aiomtpremium.com)")
-    st.markdown("📺 Youtube: [youtube.com/@aiomtpremium](https://youtube.com/@aiomtpremium)")
+    st.markdown("#### Liên hệ: 097.125.8386")
+
     
     st.markdown("#### Về ứng dụng")
     st.markdown("""
