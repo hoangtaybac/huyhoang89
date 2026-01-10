@@ -873,20 +873,6 @@ with st.sidebar:
     st.subheader("Thông tin liên hệ")
     st.markdown("### ThS. Hà Huy Hoàng")  
     st.markdown("#### Liên hệ: 097.125.8386")
-    st.markdown("""
-    <div style="display: flex; gap: 10px; margin-top: 15px;">
-        <a href="https://facebook.com/nhphuclk" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" width="32" height="32">
-        </a>
-        <a href="https://youtube.com/@aiomtpremium" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" width="32" height="32">
-        </a>
-        <a href="https://aiomtpremium.com" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/1150/1150626.png" width="32" height="32">
-        </a>
-        <a href="https://zalo.me/0985692879" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/2048px-Icon_of_Zalo.svg.png" width="32" height="32">
-        </a>
     </div>
     """, unsafe_allow_html=True)
 
