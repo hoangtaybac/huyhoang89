@@ -871,20 +871,8 @@ with st.sidebar:
     """)
     
     st.subheader("Thông tin liên hệ")
-    
-     st.markdown("### ThS. Hà Huy Hoàng")
-        
-    
+    st.markdown("### ThS. Hà Huy Hoàng")  
     st.markdown("#### Liên hệ: 097.125.8386")
-
-    
-    st.markdown("#### Về ứng dụng")
-    st.markdown("""
-    Ứng dụng OCR PDF với Server AI giúp nhận diện và trích xuất văn bản từ file PDF với độ chính xác cao, hỗ trợ nhận diện công thức toán học và hình ảnh.
-    
-    Phiên bản này được triển khai trên nền tảng Vercel, sử dụng công nghệ AI tiên tiến từ Server AI để cung cấp kết quả OCR chất lượng cao.
-    """)
-    
     st.markdown("""
     <div style="display: flex; gap: 10px; margin-top: 15px;">
         <a href="https://facebook.com/nhphuclk" target="_blank">
